@@ -2,8 +2,6 @@ const path = require('path');
 const nodeExcternals = require('webpack-node-externals');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 
-debugger;
-
 const webpackconfig = {
   target: 'node',
   mode: 'development',

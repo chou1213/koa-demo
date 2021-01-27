@@ -771,3 +771,12 @@ app.listen(3000);
 ```bash
 npm i -S jsonwebtoken
 ```
+
+
+## 安装svg-captcha
+> 用于生产图形验证码
+```bash
+npm i -S svg-captcha
+```
+
+#### 引用svg-captcha
