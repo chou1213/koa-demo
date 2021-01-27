@@ -21,7 +21,7 @@ const isProdMode = process.env.NODE_ENV === 'production' ? true : false;
 const jwt = JWT({
   secret: config.JWT_SECRET
 }).unless({
-  path: [/^\/public/, /^\/login/, /^\/a/]
+  path: [/^\/public/, /^\/login/, /^\/a/, /^\/getCaptcha/]
 });
 
 const middleware = compose([

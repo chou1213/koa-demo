@@ -38,8 +38,11 @@
     "koa-compose": "^4.1.0",
     "koa-compress": "^5.0.1",
     "koa-helmet": "^6.0.0",
+    "koa-jwt": "^4.0.0",
     "koa-router": "^10.0.0",
     "koa-static": "^5.0.0",
-    "koa-jwt": "^4.0.0"
+    "moment": "^2.29.1",
+    "nodemailer": "^6.4.17",
+    "svg-captcha": "^1.4.0"
   }
 }
